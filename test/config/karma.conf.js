@@ -12,7 +12,11 @@ module.exports = function (config) {
 			'test/unit/**/*.js'
 		],
 		autoWatch: false,
-		singleRun: false,
-		browsers: ['PhantomJS', 'Firefox']
+		singleRun: true,
+		browsers: ['PhantomJS']
+		reporters: ['spec'],
+		junitReporter: {
+		  outputFile: 'test-results.xml'
+		}
 	});
 };
