@@ -1,5 +1,7 @@
 # AngularJS TodoMVC Example
 
+![alt text](https://www.codeship.io/projects/88eb5f90-9153-0131-dbce-7ac12eb35473/status "Build status")
+
 > HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
 
 > _[AngularJS - angularjs.org](http://angularjs.org)_
