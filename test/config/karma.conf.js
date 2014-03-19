@@ -13,6 +13,6 @@ module.exports = function (config) {
 		],
 		autoWatch: false,
 		singleRun: false,
-		browsers: ['Chrome', 'Firefox']
+		browsers: ['PhantomJS', 'Firefox']
 	});
 };
