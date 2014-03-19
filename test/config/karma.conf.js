@@ -13,7 +13,7 @@ module.exports = function (config) {
 		],
 		autoWatch: false,
 		singleRun: true,
-		browsers: ['PhantomJS']
+		browsers: ['Firefox']
 		reporters: ['spec'],
 		junitReporter: {
 		  outputFile: 'test-results.xml'
