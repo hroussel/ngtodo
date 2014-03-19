@@ -11,7 +11,7 @@ module.exports = function (config) {
 			'js/**/*.js',
 			'test/unit/**/*.js'
 		],
-		autoWatch: true,
+		autoWatch: false,
 		singleRun: false,
 		browsers: ['Chrome', 'Firefox']
 	});
