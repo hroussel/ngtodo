@@ -34,9 +34,9 @@ angular.module('todomvc')
 
 		$scope.addTodo = function () {
 			var newTodo = $scope.newTodo.trim();
-			if (!newTodo.length) {
-				return;
-			}
+			// if (!newTodo.length) {
+			// 	return;
+			// }
 
 			todos.push({
 				title: newTodo,
